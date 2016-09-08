@@ -167,8 +167,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.4</source>
-					<target>1.4</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -186,4 +186,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+	  <dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.6.3</version>
+	  </dependency>
+	</dependencies>
 </project>
